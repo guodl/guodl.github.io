@@ -457,7 +457,10 @@ ul h4 {
 #TableMathSkill th {
   padding-top: 12px;
   padding-bottom: 12px;
-  text-align: left;
-  background-color: #4CAF50;
+  text-align: center;
+  /*----Orginal Setting
+  background-color: #4CAF50;            #209D9D url(images/img02.gif)
+    -------------------------------------------------------------------------*/        
+  background-color: #209D9D; 
   color: white;
 }
