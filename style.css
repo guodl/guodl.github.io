@@ -51,10 +51,29 @@ h2 {
 	font-size: 2.25em;
 }
 
-h2,h3,h4 {
+/******************************************************************
+    h2,h3,h4 {
+	    color: #2C2B2B;
+	    margin-bottom: 1em;
+    }
+
+ ******************************************************************/
+h2, h3,h4 {
 	color: #2C2B2B;
 	margin-bottom: 1em;
 }
+
+
+h2 {
+	color: blue;
+}
+
+
+h2:hover {
+	background-color: #ddd;
+	cursor:grab;
+}
+
 
 h3 {
 	font-size: 1.75em;
@@ -464,3 +483,52 @@ ul h4 {
   background-color: #209D9D; 
   color: white;
 }
+
+/********************************************************************************************************
+ Webpage:
+      Sidebar - Box (Table of Contents) 
+ URL: 
+      https://saruwakakun.com/html-css/reference/box#section1
+ Date:
+      2022.11.13
+ 
+*********************************************************************************************************/
+
+.box26 {
+    position: relative;
+    margin: 2em 0;
+    padding: 0.5em 1em;
+    border: solid 3px #95ccff;
+    border-radius: 8px;
+}
+.box26 .box-title {
+    position: absolute;
+    display: inline-block;
+    top: -13px;
+    left: 10px;
+    padding: 0 9px;
+    line-height: 1;
+    font-size: 19px;
+    background: #FFF;
+    color: #95ccff;
+    font-weight: bold;
+}
+.box26 p {
+    margin: 0; 
+    padding: 0;
+}
+
+/********************************************************************************************************
+ Webpage:
+      Collapsible Text Boxes 
+ URL: 
+      https://codepen.io/Mdade89/pen/JKZYGq
+	  
+ Author:
+      Matthew Olson
+	  
+ Date:
+      2023.03.19
+ 
+*********************************************************************************************************/
+
