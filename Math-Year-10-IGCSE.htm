@@ -15,6 +15,7 @@ Released   : 20120624
 <title>Math</title>
 <meta http-equiv="content-type" content="text/html; charset=utf-8" />
 <link rel="stylesheet" type="text/css" href="style.css" />
+<script type="text/javascript" id="MathJax-script" async src="/mathjax/tex-chtml.js"></script>
 <script type="text/javascript" src="jquery.min.js"></script>
 <script type="text/javascript" src="jquery.dropotron-1.0.js"></script>
 <script type="text/javascript" src="jquery.slidertron-1.1.js"></script>
@@ -33,11 +34,21 @@ Released   : 20120624
 			speed: 'slow',
 			advanceDelay: 4000
 		});
+		
+		$("#h2PastPaper").click(function(){
+          　　　　　　  $("#TableMathSkill").toggle();
+			$("#h2PastPaper").style.color = "black";
+        　　　　});
+
 	});
+	
 </script>
 </head>
 <body>
 <div id="wrapper">
+        <!---------------------------------------------------------
+
+        ----------------------------------------------------------->
 	<div id="header">
 		<div id="logo">
 			<h1><a href="#">Elite Tuition 精英补教</a></h1>
@@ -46,86 +57,66 @@ Released   : 20120624
 			<h2>Maths Resources</h2>
 		</div>
 	</div>
+
+        <!---------------------------------------------------------
+
+        ----------------------------------------------------------->
 	<div id="menu">
 		<ul>
 			<li class="first">
-				<span class="opener">资料<b></b></span>
-				<ul>
-					<li><a href="wechat.htm">微信群资料</a></li>
-					<li><span>IB</span>
+				<span class="opener">Cambridge<b></b></span>
 					    <ul>
-					        <li><a href="IB/Pre_IB.htm">Pre IB</a></li>
-					        <li><a href="Math-Year-12-IB-MAA-HL.htm">Math Analysis and Approaches HL</a></li>
-					        <li><a href="IB/MAA_SL.htm">Math Analysis and Approaches SL</a></li>
-					        <li><a href="IB/MAI_SL.htm">Math Applications and Interpretation HL</a></li>
-					        <li><a href="IB/MAI_SL.htm">Math Applications and Interpretation SL</a></li>
-					    </ul>
-					</li>
+					<li><a href="Math-Year-10-Cambridge-IGCSE.htm"      >0580 IGCSE Extended               </a></li>
+					<li><a href="Math-Year-12-Cambridge-PureMath1.htm"  >9709 Pure Math 1 and Statistics 1 </a></li>
+					<li><a href="Math-Year-12-Cambridge-PureMath3.htm"  >9709 Pure Math 3 and Statistics 2 </a></li>
 					<li>
-						<span>Site A<b></b></span>
+						<span>Singapore-Cambridge<b></b></span>
 						<ul>
-							<li><a href="#">List A</a></li>
-							<li><a href="#">Consequat Dolor</a></li>
-							<li><a href="#">Magna Feugiat</a></li>
-							<li><a href="#">Sed Tempus</a></li>
-							<li><a href="#">Etiam Nullam</a></li>
-							<li><a href="#">Amet Phasellus</a></li>
+							<li><a href="#">Primary School Leaving Examination(PSLE)</a></li>
+							<li><a href="#">GCE Ordinary Level</a></li>
+							<li><a href="#">GCE A-Level H1 Mathematics (8865)</a></li>
+							<li><a href="#">GCE A-Level H2 Mathematics (9758)</a></li>
+							<li><a href="#">GCE A-Level H2 Further Mathematics (9649)</a></li>
 						</ul>
 					</li>
-					<li><a href="#">Etiam Nullam</a></li>
-					<li><a href="#">Amet Phasellus</a></li>
 				</ul>
 			</li>
-		
 			<li class="first">
 				<span class="opener">IB<b></b></span>
 				<ul>
-					<li><a href="IB/Pre_IB.htm">Pre IB</a></li>
+					<li><a href="Math-Year-10-IB-Pre-IB.htm"   >Pre IB                                    </a></li>
 					<li><a href="Math-Year-12-IB-MAA-HL.htm">Math Analysis and Approaches HL</a></li>
-					<li><a href="IB/MAA_SL.htm">Math Analysis and Approaches SL</a></li>
-					<li><a href="IB/MAI_SL.htm">Math Applications and Interpretation HL</a></li>
-					<li><a href="IB/MAI_SL.htm">Math Applications and Interpretation SL</a></li>
-					<li>
-						<span>Site A<b></b></span>
-						<ul>
-							<li><a href="#">List A</a></li>
-							<li><a href="#">Consequat Dolor</a></li>
-							<li><a href="#">Magna Feugiat</a></li>
-							<li><a href="#">Sed Tempus</a></li>
-							<li><a href="#">Etiam Nullam</a></li>
-							<li><a href="#">Amet Phasellus</a></li>
-						</ul>
-					</li>
-					<li><a href="#">Etiam Nullam</a></li>
-					<li><a href="#">Amet Phasellus</a></li>
+					<li><a href="Math-Year-12-IB-MAA-SL.htm"   >Math Analysis and Approaches SL           </a></li>
+					<li><a href="Math-Year-12-IB-MAI-SL.htm"   >Math Applications and Interpretation HL   </a></li>
+					<li><a href="Math-Year-12-IB-MAI-SL.htm"   >Math Applications and Interpretation SL   </a></li>
 				</ul>
 			</li>
 			<li class="first">
 				<span class="opener">NCEA<b></b></span>
 				<ul>
-					<li><a href="NCEA_L1.htm">NCEA Level 1</a></li>
-					<li><a href="NCEA_L2.htm">NCEA Level 2</a></li>
-					<li><a href="NCEA_L3.htm">NCEA Level 3</a></li>
+					<li><a href="Math-Year-11-NCEA-L1.htm">NCEA Level 1</a></li>
+					<li><a href="Math-Year-12-NCEA-L2.htm">NCEA Level 2</a></li>
+					<li><a href="Math-Year-13-NCEA-L3.htm">NCEA Level 3</a></li>
+					<li><a href="Math-Year-12-NCEA-Scholarship-Calculus.htm">Scholarship Calculus</a></li>
 				</ul>
 			</li>
 			<li class="first">
-				<span class="opener">Cambridge<b></b></span>
+				<span class="opener">Others<b></b></span>
 				<ul>
-					<li><a href="Math-Year-10-IGCSE.htm">Cambridge IGCSE</a></li>
-					<li><a href="CIE/PureMath1.htm">Pure Mathematics 1 Workbook</a></li>
-					<li><a href="CIE/PureMath3.htm">Pure Mathematics 3 Workbook</a></li>
-				</ul>
-			</li>
+					<li><a href="#">SAT</a></li>
 			<li>
-				<span class="opener">Support<b></b></span>
+					        <span>Australia HSC<b></b></span>
 				<ul>
-					<li><a href="#">Test CCC </a></li>
-					<li><a href="#">Consequat Dolor</a></li>
-					<li><a href="#">Magna Feugiat</a></li>
+					            <li><a href="Math-Year-12-HSC.htm#Ext2">Math Extension 2</a></li>
+					            <li><a href="Math-Year-12-HSC.htm#Ext1">Math Extension 1</a></li>
+					            <li><a href="Math-Year-12-HSC.htm#Adv">Math Advanced</a></li>
+					        </ul>
+					</li>
+					<!----
 					<li>
-						<span>AAAAAAAAAAAAA<b></b></span>
+						<span>Site A<b></b></span>
 						<ul>
-							<li><a href="#">Lorem Ipsum</a></li>
+							<li><a href="#">List A</a></li>
 							<li><a href="#">Consequat Dolor</a></li>
 							<li><a href="#">Magna Feugiat</a></li>
 							<li><a href="#">Sed Tempus</a></li>
@@ -133,33 +124,37 @@ Released   : 20120624
 							<li><a href="#">Amet Phasellus</a></li>
 						</ul>
 					</li>
-					<li><a href="#">Etiam Nullam</a></li>
-					<li><a href="#">Amet Phasellus</a></li>
+					---->
 				</ul>
 			</li>
-			<li><a href="#">数学</a></li>
+		
 			<li class="first">
-				<span class="opener">Others<b></b></span>
+				<span class="opener">Tuition<b></b></span>
 				<ul>
-					<li><a href="travel/travel.htm">Travel</a></li>
-					<li><a href="CIE/PureMath3.htm">Pure Mathematics 3 Workbook</a></li>
+					<li><a href="tuition.htm#style"            >  Tuition Style       </a></li>
+					<li><a href="tuition.htm#termimonials"     >  Testimonials        </a></li>
+					<li><a href="tuition.htm#qualifications"   >  Qualifications      </a></li>
+					<li><a href="tuition.htm#contactus"        >  Contact Us          </a></li>
 				</ul>
 			</li>
+			<li><a href="#">中文版</a></li>
 		</ul>
 		<br class="clearfix" />
 	</div>
+	
 	<div id="slider">
 		<div class="viewer">
 			<div class="reel">			
 				<div class="slide">
-					<img src="images/slide01.jpg" alt="" />
+					<a href="Math-Year-12-IB-MAA-HL.htm"><img src="images/slide01.jpg" alt="" /></a>
 				</div>
 				<div class="slide">
-					<img src="images/slide01.png" alt="" />
+					<a href="http://www.google.com"><img src="images/slide01.png" alt="" /></a>
 				</div>
 				<div class="slide">
 					<img src="images/slide02.jpg" alt="" />
 				</div>
+				<!-----
 				<div class="slide">
 					<img src="images/slide03.jpg" alt="" />
 				</div>
@@ -169,19 +164,41 @@ Released   : 20120624
 				<div class="slide">
 					<img src="images/slide05.jpg" alt="" />
 				</div>
+				--->
 			</div>
 		</div>
 		<div class="indicator">
 			<span>1</span>
 			<span>2</span>
 			<span>3</span>
+			<!---
 			<span>4</span>
 			<span>5</span>
 			<span>6</span>
+			--->
 		</div>
 	</div>
 	<div id="page">
-		<div id="content">
+		<div id="contentMS">
+			<div class="box">
+				<h2>List of Textbooks and Workbooks for Cambridge IGCSE 0580</h2>
+
+
+				<table style="width:100%" id="TableMathSkill">
+	            <tr><th>Cover</th><th>Name</th></tr>
+	            <!-- Using Excel cells to generate the HTML table rows -->
+
+                                          <tr Valign=Top> <td>  <a href="  https://www.bookdepository.com/Cambridge-IGCSE-TM-O-Level-Additional-Mathematics-Coursebook-Sue-Pemberton/9781108411660?ref=grid-view&qid=1679842672257&sr=1-26    "><img src=" Math-Year-10-IGCSE/Math-Year-10-Cambridge-IGCSE-Additional-9781108411660.jpg  "   ,width=200>    </td>     <td> [No. 101] <br><br>Cambridge IGCSE (TM) and O Level Additional Mathematics Coursebook<br>  <br>ISBN 9781108411660<br>     <br><br>    <br><br> </td> </tr>
+                                          <tr Valign=Top> <td>  <a href="  https://www.bookdepository.com/Pemberton-Mathematics-for-Cambridge-IGCSE-R-Sue-Pemberton/9780198424802?ref=grid-view&qid=1679842533235&sr=1-36    "><img src=" Math-Year-10-IGCSE/Math-Year-10-Cambridge-IGCSE-Oxford-9780198424802.jpg  "   ,width=200>    </td>     <td> [No. 102] <br><br>Pemberton Mathematics for Cambridge IGCSE<br>  <br>ISBN 9780198424802<br>     <br><br>    <br><br> </td> </tr>
+                                          <tr Valign=Top> <td>  <a href="  https://www.bookdepository.com/Complete-Mathematics-for-Cambridge-IGCSE-R-Student-Book-Extended-David-Rayner/9780198425076?ref=grid-view&qid=1679842363419&sr=1-23    "><img src=" Math-Year-10-IGCSE/Math-Year-10-Cambridge-IGCSE-Oxford-9780198425076.jpg  "   ,width=200>    </td>     <td> [No. 103] <br><br>Complete Mathematics for Cambridge IGCSE (R) Student Book (Extended)<br>  <br>ISBN 9780198425076<br>     <br><br>    <br><br> </td> </tr>
+                                          <tr Valign=Top> <td>  <a href="  https://www.bookdepository.com/Cambridge-IGCSE-Mathematics-Core-Extended-Coursebook-with-CD-ROM-Karen-Morrison/9781316605639    "><img src=" Math-Year-10-IGCSE/Math-Year-10-Cambridge-IGCSE-9781316605639.jpg  "   ,width=200>    </td>     <td> [No. 104] <br><br>Cambridge IGCSE Mathematics Core and Extended Coursebook with CD-ROM<br>  <br>ISBN 9781316605639<br>     <br><br>    <br><br> </td> </tr>
+			
+			
+                </table>
+				</p>
+			</div>
+		
+				
 			<div class="box">
 				<h2>Cambridge IGCSE</h2>
 下面是Cambridge IGCSE 的所有科目的教学大纲：
@@ -203,7 +220,12 @@ Released   : 20120624
 
 				</p>
 			</div>
+        
+			<!--------------------------------------
 			<div class="box" id="content-box1">
+			
+			
+     
 				<h3>Exams</h3>
 				<ul class="section-list">
 					<li class="first">
@@ -233,17 +255,24 @@ Released   : 20120624
 					<li class="last"><a href="#">Tristique amet venenatis</a></li>
 				</ul>
 			</div>
+			
 			<br class="clearfix" />
 		</div>
+        
+        
 		<div id="sidebar">
 			<div class="box">
-				<h3>Cursus magnis</h3>
+				<h3>Marking Scheme</h3>
 				<ul class="list">
-					<li class="first"><a href="#">Adipiscing tincidunt</a></li>
-					<li><a href="#">Euismod elit sollicitudin</a></li>
-					<li><a href="#">Dolor magnis et lacinia</a></li>
-					<li><a href="#">Mauris ornare aenean</a></li>
-					<li class="last"><a href="#">Ante semper fringilla</a></li>
+					<li class="first"><a href="#">Cambridge IGCSE Extended</a></li>
+					<li><a href="#">Cambridge Pure Math 1</a></li>
+					<li><a href="#">Cambridge Statistics 1</a></li>
+					<li><a href="#">Cambridge Pure Math 3</a></li>
+					<li><a href="#">Cambridge Statistics 2</a></li>
+					<li><a href="#">IB MAA HL</a></li>
+                    
+					<li><a href="#">IB MAA SL</a></li>
+					<li class="last"><a href="#">IB MAI SL</a></li>
 				</ul>
 			</div>
 			<div class="box">
@@ -257,22 +286,37 @@ Released   : 20120624
 					</ul>
 				</div>
 			</div>
+			
+			
+			-------------------------------------->
 		</div>
+        
 		<br class="clearfix" />
 	</div>
+
+			
+			
 	<div id="page-bottom">
-		<div id="page-bottom-content">
-			<h3>Page Bottom Content</h3>
-			<p>
-				Page Bottom Content 11111 22222 3333  sodales at ornare laoreet turpis. Lorem id sapien ridiculus sagittis imperdiet urna suspendisse. Posuere arcu parturient quam risus. Aliquam nullam magnis integer gravida vulputate felis. Consectetur montes sollicitudin dictum. Auctor sociis hendrerit pulvinar acursus urna lorem ipsum dolor vivamus pulvinar libero. Massa egestas cubilia lacus augue mattis consectetur.
-			</p>
+		<div id="page-bottom-content"><!------------------- https://google-map-generator.com/    ------------>
+
+				<div class="mapouter"><div class="gmap_canvas"><iframe width="600" height="350" id="gmap_canvas" src="https://maps.google.com/maps?q=Elite%20Tuition,%2074%20John%20Gill%20Road,%20Auckland%202014,New%20Zealand&t=&z=11&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://fmovies-online.net">fmovies</a><br><style>.mapouter{position:relative;text-align:right;height:350px;width:600px;}</style><a href="https://www.embedgooglemap.net">embedgooglemap.net</a><style>.gmap_canvas {overflow:hidden;background:none!important;height:350px;width:600px;}</style></div></div>			    		
+				
+				
 		</div>
 		<div id="page-bottom-sidebar">
-			<h3>Sed interdum</h3>
 			<ul class="list">
-				<li class="first"><a href="#">First A22222222</a></li>
-				<li><a href="#">Second A333333333</a></li>
-				<li class="last"><a href="#">Lorem enim tempor</a></li>
+			    <h3>Elite Tuition</h3>
+				<li class="first">74 John Gill Road<br>
+				                  Auckland 2014<br>New Zealand 
+				</li>
+				<li class="first"><img src="images/wechatgroup.png" alt="wechat_group" width="150" height="150">　
+                </li>
+                <li class="first"><img src="images/wechat.jpg" alt="wechat_guodl" width="150" height="150">
+                
+                </li>
+				<li class="last">EliteEduA@gmail.com</li>
+				
+				
 			</ul>
 		</div>
 		<br class="clearfix" />
@@ -280,7 +324,17 @@ Released   : 20120624
 </div>
 
 <div id="footer">
-	Footer text: 8918    &copy; Untitled. All rights reserved. Design by <a href="http://templated.co" rel="nofollow">TEMPLATED</a>. Photos by <a href="http://fotogrph.com/">Fotogrph</a>.
+
+	<!-- Design by 
+	         <a href="http://templated.co" rel="nofollow">TEMPLATED</a>.
+             Photos by <a href="http://fotogrph.com/">Fotogrph</a>.
+			 
+			 
+		
+	&copy; Elite Tuition Limited. 	 
+			 
+          -->
+	
 </div>
 </body>
 </html>
