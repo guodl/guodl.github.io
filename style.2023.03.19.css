@@ -51,29 +51,10 @@ h2 {
 	font-size: 2.25em;
 }
 
-/******************************************************************
-    h2,h3,h4 {
-	    color: #2C2B2B;
-	    margin-bottom: 1em;
-    }
-
- ******************************************************************/
-h2, h3,h4 {
+h2,h3,h4 {
 	color: #2C2B2B;
 	margin-bottom: 1em;
 }
-
-
-h2 {
-	color: blue;
-}
-
-
-h2:hover {
-	background-color: #ddd;
-	cursor:grab;
-}
-
 
 h3 {
 	font-size: 1.75em;
@@ -408,13 +389,6 @@ ul h4 {
 	width: 890px;
 }
 
-#slider2 {
-	position: relative;
-	margin: 45px 45px 0px 45px;
-	width: 890px;
-}
-
-
 #slider .viewer {
 	width: 890px;
 	height: 250px;
@@ -422,22 +396,7 @@ ul h4 {
 	border-radius: 3px;
 }
 
-#slider2 .viewer {
-	width: 890px;
-	height: 250px;
-	border: solid 1px #D4D4D4;
-	border-radius: 3px;
-}
-
-
 #slider .slide {
-	width: 890px;
-	height: 250px;
-	padding: 10px;
-}
-
-
-#slider2 .slide {
 	width: 890px;
 	height: 250px;
 	padding: 10px;
@@ -450,25 +409,7 @@ ul h4 {
 	margin: 20px 0 0 0;
 }
 
-#slider2 .indicator {
-	position: relative;
-	z-index: 1;
-	text-align: center;
-	margin: 20px 0 0 0;
-}
-
-
 #slider .indicator span {
-	display: inline-block;
-	text-indent: -9999em;
-	width: 12px;
-	height: 12px;
-	background: #E3DFDF;
-	border-radius: 6px;
-	margin: 0 2px 0 2px;
-}
-
-#slider2 .indicator span {
 	display: inline-block;
 	text-indent: -9999em;
 	width: 12px;
@@ -481,11 +422,6 @@ ul h4 {
 #slider .indicator span.active {
 	background: #6E6E6E;
 }
-
-#slider2 .indicator span.active {
-	background: #6E6E6E;
-}
-
 
 #wrapper {
 	position: relative;
@@ -562,18 +498,3 @@ ul h4 {
     margin: 0; 
     padding: 0;
 }
-
-/********************************************************************************************************
- Webpage:
-      Collapsible Text Boxes 
- URL: 
-      https://codepen.io/Mdade89/pen/JKZYGq
-	  
- Author:
-      Matthew Olson
-	  
- Date:
-      2023.03.19
- 
-*********************************************************************************************************/
-

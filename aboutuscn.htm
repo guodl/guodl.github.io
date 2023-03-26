@@ -34,41 +34,24 @@ Released   : 20120624
 			speed: 'slow',
 			advanceDelay: 4000
 		});
-		
-		$("#h2PastPaper").click(function(){
-          　　　　　　  $("#TableMathSkill").toggle();
-			$("#h2PastPaper").style.color = "black";
-        　　　　});
-
 	});
-	
 </script>
 </head>
 <body>
 <div id="wrapper">
-        <!---------------------------------------------------------
-
-        ----------------------------------------------------------->
 	<div id="header">
 		<div id="logo">
-			<h1><a href="#">Elite Tuition 精英补教</a></h1>
-		</div>
-		<div id="slogan">
-			<h2>Maths Resources</h2>
+			<h1><a href="#">Math Resources and Worksheets</a></h1>
 		</div>
 	</div> 
-
-        <!---------------------------------------------------------
-
-        ----------------------------------------------------------->
 	<div id="menu">
 		<ul>
 			<li class="first">
 				<span class="opener">Cambridge<b></b></span>
 				<ul>
-					<li><a href="Math-Year-10-IGCSE.htm"                >0580 IGCSE Extended               </a></li>
-					<li><a href="Math-Year-12-Cambridge-PureMath1.htm"  >9709 Pure Math 1 and Statistics 1 </a></li>
-					<li><a href="Math-Year-12-Cambridge-PureMath3.htm"  >9709 Pure Math 3 and Statistics 2 </a></li>
+					<li><a href="#"          >0580 IGCSE Extended               </a></li>
+					<li><a href="#"      >9709 Cambridge Pure Mathematics 1 </a></li>
+					<li><a href="#"      >9709 Cambridge Pure Mathematics 3 </a></li>
 					<li>
 						<span>Singapore-Cambridge<b></b></span>
 						<ul>
@@ -84,20 +67,19 @@ Released   : 20120624
 			<li class="first">
 				<span class="opener">IB<b></b></span>
 				<ul>
-					<li><a href="Math-Year-10-Pre-IB.htm"      >Pre IB                                    </a></li>
-					<li><a href="Math-Year-12-IB-MAA-HL.htm"   >Math Analysis and Approaches HL           </a></li>
-					<li><a href="Math-Year-12-IB-MAA-SL.htm"   >Math Analysis and Approaches SL           </a></li>
-					<li><a href="Math-Year-12-IB-MAI-SL.htm"   >Math Applications and Interpretation HL   </a></li>
-					<li><a href="Math-Year-12-IB-MAI-SL.htm"   >Math Applications and Interpretation SL   </a></li>
+					<li><a href="#"             >Pre IB                                    </a></li>
+					<li><a href="#"   >Math Analysis and Approaches HL           </a></li>
+					<li><a href="#"                >Math Analysis and Approaches SL           </a></li>
+					<li><a href="#"                >Math Applications and Interpretation HL   </a></li>
+					<li><a href="#"                >Math Applications and Interpretation SL   </a></li>
 				</ul>
 			</li>
 			<li class="first">
 				<span class="opener">NCEA<b></b></span>
 				<ul>
-					<li><a href="Math-Year-11-NCEA-L1.htm">NCEA Level 1</a></li>
-					<li><a href="Math-Year-12-NCEA-L2.htm">NCEA Level 2</a></li>
-					<li><a href="Math-Year-13-NCEA-L3.htm">NCEA Level 3</a></li>
-					<li><a href="Math-Year-12-NCEA-Scholarship-Calculus.htm">Scholarship Calculus</a></li>
+					<li><a href="#">NCEA Level 1</a></li>
+					<li><a href="#">NCEA Level 2</a></li>
+					<li><a href="#">NCEA Level 3</a></li>
 				</ul>
 			</li>
 			<li class="first">
@@ -107,9 +89,9 @@ Released   : 20120624
 					<li>
 					        <span>Australia HSC<b></b></span>
 					        <ul>
-					            <li><a href="Math-Year-12-HSC.htm#Ext2">Math Extension 2</a></li>
-					            <li><a href="Math-Year-12-HSC.htm#Ext1">Math Extension 1</a></li>
-					            <li><a href="Math-Year-12-HSC.htm#Adv">Math Advanced</a></li>
+					            <li><a href="#">Math Extension 2</a></li>
+					            <li><a href="#">Math Extension 1</a></li>
+					            <li><a href="#">Math Advanced</a></li>
 					        </ul>
 					</li>
 					<!----
@@ -131,10 +113,10 @@ Released   : 20120624
 			<li class="first">
 				<span class="opener">Tuition<b></b></span>
 				<ul>
-					<li><a href="tuition.htm#style"            >  Tuition Style       </a></li>
-					<li><a href="tuition.htm#termimonials"     >  Testimonials        </a></li>
-					<li><a href="tuition.htm#qualifications"   >  Qualifications      </a></li>
-					<li><a href="tuition.htm#contactus"        >  Contact Us          </a></li>
+					<li><a href="#"                 >  Tuition Style       </a></li>
+					<li><a href="#"     >  Testimonials        </a></li>
+					<li><a href="#"   >  Qualifications      </a></li>
+					<li><a href="#"   >  Contact Us          </a></li>
 				</ul>
 			</li>
 			<li><a href="#">中文版</a></li>
@@ -178,46 +160,121 @@ Released   : 20120624
 			--->
 		</div>
 	</div>
-	<div id="page">
-		<div id="contentMS">
-			<div class="box">
-				<h2 id="h2PastPaper">Our Tuition Style</h2>
-				
-					<table style="width:100%" id="TableMathSkill"> 
-	 				    <td>Individual Learning</td>
-						<td>We are focused on individual goals rather than the needs of the entire group</td>
-						</tr>
+	<div class="box" id="page">
 	
-						<td>Flexibility</td>
-						<td>We are able to offer more flexible learning hours and materials.</td>
+		<div id="content">
+			<div class="box" id="ms">
+				<h2>Past Paper Marking Scheme Collection</h2>
+				
+					<table style="width:100%" id="TableMathSkill">
+					  <tr>
+						<th>Exam</th>
+						<th>Name</th>
+						<th>Marking Scheme Collection</th>
+					  </tr>
+
+				<!-- Using Excel cells to generate the HTML table rows -->
+	
+	 				    <td>Australia</td>
+						<td>HSC Math Extension 2<br>HSC Math Extension 1<br>HSC Math Advanced</td>
+						<td><a href=" https://drive.google.com/file/d/1WaQo6_g41ANzZntzvqkOH5rReTjSTzxc/view?usp=sharing">Past Papers</a><br>
+						    <a href=" https://drive.google.com/file/d/1lIZ6hoKowonVbTY2wwErW8qA7ZxfkdV3/view?usp=sharing">Marking Scheme</a>
+						</td></tr>
+	
+						<td>IB</td>
+						<td>MAA HL</td>
+						<td><a href=" https://drive.google.com/file/d/1QB7mPTklsMhl26HNDAMkKhxfH2U_lrTz/view?usp=sharing">Paper 1, Paper 2 and Paper 3</a></td></tr>
+						<tr><td>IB</td>
+						<td>MAA SL</td>
+						<td><a href="https://drive.google.com/file/d/1zlSgAJuGL60yBMNUKZ52iWt6ITXiDUhh/view?usp=sharing">Paper 1 and Paper 2
 						<tr>
 
 							
-						<td>Feedback and Attention</td>
-						<td>We are more able to provide detailed, immediate feedback 
-						    and give more attention to individual students, instead 
-							of tutoring to whole group.</td>
-						</tr>
+						<td>Cambridge</td>
+						<td>Cambridge IGCSE Extended</td>
+						<td><a href=" https://drive.google.com/file/d/1_AskpyGr6vvAZlG8DL6P6GbGyVg_Dxrz/view?usp=sharing">0580 Extended Paper 2 and Paper 4</a></td></tr>
 
-						<td>Great Result</td>
-						<td>Almost 90% of students improve scores, and with about 60% receives A/A* in Cambridge, 6/7 in IB, 
-						    Excellence or Meirt in NCEA.<br><img src="Testimonials/Eva_Ciaran.png" alt="" width="500px"/>
-							</td>
-						</tr>
+						<td>Cambridge</td>
+						<td>Pure Math 1 (Exam Date: 17/10/2022 Mon)<br/>Statistics 1 (Exam Date: 26/10/2022 Wed)</td>
+						<td><a href=" https://drive.google.com/file/d/1nDEXOltXelGAntl-rE4jDL4QT4cbZXN8/view?usp=sharing">9709 Paper 1 and Paper 5</a></td></tr>
 
-						<td>Qualifications</td>
-						<td> We have better qualifications in mathematics and computer science.</td>
-                        </tr>						
-					</table>
-	            <p>
-				<p>
+						<td>Cambridge</td>
+						<td>Pure Math 3 and Statistics 2</td>
+						<td><a href=" https://drive.google.com/file/d/1sTQpKgtlMH3Z95GhbJlz2RBUZTUeKsrR/view?usp=sharing">9709 Paper 3 and Paper 6</a></td></tr>
+										
+						</table>
+
+				</p>
 			</div>
             
+			<!--- Mark -->
+        
+			<!--------------------------------------
+			<div class="box" id="content-box1">
 			
 			
-			<!----
-			<div class="box">
-				<h2>Math Resources and Worksheets</h2>
+     
+				<h3>Exams</h3>
+				<ul class="section-list">
+					<li class="first">
+						<img class="pic alignleft" src="images/pic01.jpg" width="70" height="70" alt="" />
+						<span>Pure Mathematics 1 Workbook.</span>
+					</li>
+					<li>
+						<img class="pic alignleft" src="images/pic02.jpg" width="70" height="70" alt="" />
+						<span>Pure Mathematics 3 Workbook.</span>
+					</li>
+					<li class="last">
+						<img class="pic alignleft" src="images/pic03.jpg" width="70" height="70" alt="" />
+						<span>Ipsum quis vestibulum feugiat congue nunc laoreet volutpat lorem ipsum sociis.</span>
+					</li>
+				</ul>
+			</div>
+			<div class="box" id="content-box2">
+				<h3>Magnis hendrerit erat</h3>
+				<p>
+					Content_Box2_Neque neque ornare penatibus tristique fusce turpis. Purus sagittis euismod at ornare suscipit tempus.
+				</p>
+				<ul class="list">
+					<li class="first"><a href="#">Ipsum phasellus ullamcorper</a></li>
+					<li><a href="#">Mollis mattis tempus amet</a></li>
+					<li><a href="#">Ipsum aliquet dignissim vitae</a></li>
+					<li><a href="#">Orci metus curae sed mollis</a></li>
+					<li class="last"><a href="#">Tristique amet venenatis</a></li>
+				</ul>
+			</div>
+			
+			<br class="clearfix" />
+		</div>
+        
+        
+			
+			
+			-------------------------------------->
+		</div>
+
+		<div id="sidebar">
+				<div class="box"> 
+					<h3></h3>
+					<ul class="list">
+						<li class="first"><a href="#resource">精英补教　补教精英</a></li>
+						<li><a href="#">Cambridge Pure Math 1</a></li>
+						<li><a href="#">Cambridge Statistics 1</a></li>
+						<li><a href="#">Cambridge Pure Math 3</a></li>
+						<li><a href="#">Cambridge Statistics 2</a></li>
+						<li><a href="#">IB MAA HL</a></li>
+						
+						<li><a href="#">IB MAA SL</a></li>
+						<li class="last"><a href="#">IB MAI SL</a></li>
+				
+				    </ul>
+				</div>
+			</div>
+
+				<div class="box" id="resource">
+				    <iframe src="https://drive.google.com/file/d/0B3VnSl89GUNxaXI1NzNrLUZTYWs/preview" width="640" height="480"></iframe>
+				    <h2>教学理念和教学模式</h2>
+					<img src="images/aboutus/TuitionStyleCN.jpg" alt="wechat_group">
 				
 					<table style="width:100%" id="TableMathSkill">
 					  <tr>
@@ -226,20 +283,16 @@ Released   : 20120624
 						<th>Learning Resources</th>
 					  </tr>
 
-					<!-- Using Excel cells to generate the HTML table rows --
+					<!-- Using Excel cells to generate the HTML table rows -->
 	
 
                                  <tr><td>Algebra</td><td></td><td><a href=" http://passyworldofmathematics.com/algebra-terms-and-expressions/ ">Algebra Terms and Expressions</a></td></tr>
                                  <tr><td>Algebra</td><td></td><td><a href=" https://www.chino.k12.ca.us/Page/20629 ">Coefficient</a></td></tr>
-                                 <tr><td>Algebra</td><td>Absolute Value Function</td><td><a href=" https://www.coursehero.com/study-guides/tcc-fl-precalculus/graph-an-absolute-value-function/ ">Graph an absolute value function</a></td></tr>
-                                 <tr><td>Algebra</td><td>Absolute Value Function</td><td><a href=" https://mathslinks.net/faculty/absolute-value-functions-graphing ">Absolute Value Functions: Graphing</a></td></tr>
                                  <tr><td>Algebra</td><td>Parabola</td><td><a href=" https://yoshiwarabooks.org/mfg/Graphing-Parabolas.html ">Graphing Parabolas</a></td></tr>
-                                 <tr><td>Algebra</td><td>Function</td><td><a href=" https://www.youtube.com/watch?v=U3XYov1B9wA ">Solving $ xf(x)+f(1-x)=x $</a></td></tr>
+                                 <tr><td>Algebra</td><td>Function</td><td><a href=" https://www.youtube.com/watch?v=U3XYov1B9wA ">Solving xf(x)+f(1-x)=x</a></td></tr>
                                  <tr><td>Algebra</td><td>Graph</td><td><a href=" https://www.casioeducation.com/resource/pdfs/comparison/FX-9750-vs-TI-83-FindingIntersections.pdf ">Find intersections using Casio 9750</a></td></tr>
                                  <tr><td>Algebra</td><td>Graph</td><td><a href=" https://www.mathwords.com/a/asymptote.htm ">Asymptote</a></td></tr>
                                  <tr><td>Geometry</td><td></td><td><a href=" http://www.gimaths.com/MathPages/Trigonometry/Pythagoras.aspx ">Pythagoras Theorem</a></td></tr>
-                                 <tr><td>Differentiation</td><td>First Principle</td><td><a href=" https://www.geogebra.org/m/cyKpGdnA ">Differentiation from First Principles with example $$y=x^2$$ (Geogebra by Tom Carpenter)</a></td></tr>
-                                 <tr><td>Differentiation</td><td>First Principle</td><td><a href=" https://www.geogebra.org/m/WbcrsCm7 ">Differentiation from First Principles (Geogebra by Mark Willis)</a></td></tr>
                                  <tr><td>Calculus</td><td>Concavity</td><td><a href=" https://www.khanacademy.org/math/ap-calculus-ab/ab-diff-analytical-applications-new/ab-5-6b/a/concavity-review ">Khan Academy - What is concavity?</a></td></tr>
                                  <tr><td>Scholarship 93202</td><td></td><td><a href=" https://www.math.waikato.ac.nz/~hawthorn/Book2018.pdf ">Waikato Scholarship Days Calculus Workshop 2018</a></td></tr>
                                  <tr><td>Scholarship 93202</td><td>Youtube</td><td><a href=" https://www.youtube.com/channel/UCVx7Knb_kgEAimlb9AIE1GQ ">Cushla Thomson</a></td></tr>
@@ -247,49 +300,19 @@ Released   : 20120624
                                  <tr><td>Statistics</td><td>Standard Deviation</td><td><a href=" https://www.youtube.com/watch?v=HCcMFvLqU14 ">Mean and Standard Deviation Using the Casio fx-9860GII Calculator</a></td></tr>
                                  <tr><td>Statistics</td><td>Correlation</td><td><a href=" https://www.casiomedia.co.uk/files/education/pdf/Correlation.pdf "></a></td></tr>
                                  <tr><td>Scholarship 93202</td><td></td><td><a href=" https://www.nzqa.govt.nz/qualifications-standards/awards/new-zealand-scholarship/scholarship-subjects/scholarship-mathematics-with-calculus/scholarship-calculus-report/ ">Assessment Report</a></td></tr>
-                                 <tr><td>Pure Math 3</td><td>Complex Number</td><td><a href=" https://mathmathmass.exblog.jp/31573132/ ">T氏の数学日記</a></td></tr>
 	
 				
 					</table>
 
 				</p>
 			</div>
-        
-			
-			</div>
-        	-------------------------------------->
-	
-	
-	</div>
 
-    <div class="box">
-	<p>
-	<h2>Testimonials</h2>
-	
-	<table id="TableMathSkill">
-  	            <td><img src="Testimonials/Eva_Ciaran.png"      alt="" width="800px" /></td></tr><tr>
-	            <td><img src="Testimonials/Carol.png"          alt="" width="800px" /></td></tr><tr>
-				                                                                                
-		        <td><img src="Testimonials/2017.06.15-Algebra-E-Plus.png"        alt="" width="600px" /></td></tr><tr>
-			    <td><img src="Testimonials/2018.07.01-001-Jason-Wang-SuperT.jpg" alt="" width="500px" /></td></tr><tr>
+		
+		
+		
 
-
-			    <td><img src="Testimonials/2019.01-Scholarship-Benson.png" alt="" width="800px" /></td></tr><tr>
-			    <td><img src="Testimonials/SKC-2020-Top-1-Year-9-Ricky-Shen.png" alt="" width="400px" /></td></tr><tr>
-			    <td><img src="Testimonials/SKC-Betty-Zhou-Top-Student.jpg" alt="" width="500px" /></td></tr><tr>
-			    <td><img src="Testimonials/Geoffrey.jpg" alt="" width="600px" /></td></tr><tr>
-			    <td><img src="Testimonials/Dormani.png" alt="" width="600px" /></td></tr><tr>
-			    <td><img src="Testimonials/Doris.jpg" alt="" width="800px" /></td></tr><tr>
-			    <td><img src="Testimonials/CambridgeAS-NZ-Math-Top.jpg" alt="" width="600px" /></td></tr><tr>
-<!---			    <td><img src="Testimonials/2018.07.01-001-Jason-Wang-SuperT.jpg" alt="" width="800px" /></td></tr><tr>
-			    <td><img src="Testimonials/2018.07.01-001-Jason-Wang-SuperT.jpg" alt="" width="800px" /></td></tr><tr>
--->
-	</table>			                                          
-	
-	
-    
-    </div>	
-</div>			
+		
+	</div>	
 	<div id="page-bottom">
 		<div id="page-bottom-content"><!------------------- https://google-map-generator.com/    ------------>
 
@@ -315,7 +338,7 @@ Released   : 20120624
 		</div>
 		<br class="clearfix" />
 	</div>
-
+</div>
 
 <div id="footer">
 
